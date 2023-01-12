@@ -71,7 +71,7 @@ m = reg.coef_[0,0]
 y_pred = reg.predict(x_test.reshape(-1,1))
 
 accuracy(y_test,y_pred)
-plt.scatter(x_test,y_test,c="r")
+plt.scatter(list_x,list_y,c="r")
 plt.plot(x_test,y_pred,c="b")
 
 
